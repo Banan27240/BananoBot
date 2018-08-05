@@ -1125,4 +1125,4 @@ app.get('/playlist', function (res) {
 
 
 app.listen(AuthDetails.port);
-client.login('token') 
+client.login(process.env.TOKEN) 
